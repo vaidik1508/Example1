@@ -1,7 +1,7 @@
 from flask import Flask
 import os
 app=Flask(__name__)
-@app.route('/')
+@app.route('/',methods=['POST'])
 def index():
     return "Hello Word"
 if __name__ == "__main__":
