@@ -9,9 +9,7 @@ def index():
     
     
   
-@app.route('/profile/<user>')
-def profile(user=None):
-    return render_template("profile.html",name=user)
+
     
     
     
